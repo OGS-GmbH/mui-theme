@@ -1,41 +1,79 @@
 > _We're OGS, check out our work on [github.com/ogs-gmbh](https://github.com/ogs-gmbh)_
 
-# Project Template for TypeScript
+# MUI Theme
 
-_A project template with a ready-to-use structure._
+*Pre-configured Material-UI theme with light, dark and color scheme support.*
 
 ![Preview](./docs/preview.avif)
 
-<a href="./LICENSE" target="_blank"><img alt="license badge" src="https://img.shields.io/github/license/OGS-GmbH/_ts-template?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="./LICENSE" target="_blank"><img src="https://img.shields.io/github/license/OGS-GmbH/mui-theme?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://github.com/OGS-GmbH/mui-theme/actions/workflows/main-trusted-deploy.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/mui-theme/main-trusted-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://www.npmjs.com/package/@ogs-gmbh/mui-theme" target="_blank"><img src="https://img.shields.io/npm/v/%40ogs-gmbh%2Fmui-theme?color=0f434e&logo=npm&logoColor=000000&labelColor=ffffff" /></a>
 
-- **Easy to Set Up**\
-  Simple configuration lets you start your projects quickly without complex setup.
+- **Light & Dark Mode**\
+  Pre-configured light and dark color schemes with automatic switching support.
 
-- **Preconfigured Tooling**\
-  Includes Oxlint, Oxfmt, Rolldown, TypeScript and more tooling out of the box.
+- **Custom Color Palettes**\
+  Carefully crafted color palettes including petrol, orange, blue, gray, yellow and red tones.
 
-- **Modular Structure**\
-  Organized folder layout for scalable and maintainable projects.
+- **Component Defaults**\
+  Optimized default props for MUI components like buttons, text fields and tooltips.
 
-- **Development Friendly**\
-  Quick start with minimal setup required for new applications.
+- **Typography System**\
+  Consistent typography configuration with custom font family support.
 
-## Tooling
+## Getting Started
 
-| Tool                | Extras           |
-| ------------------- | ---------------- |
-| ✅ `oxlint`         |                  |
-| ✅ `oxfmt`          |                  |
-| ✅ `Rolldown`       | with `tsdown`    |
-| ✅ `TypeScript`     |                  |
-| ✅ `VitePress`      |                  |
-| ✅ `TypeDoc`        |                  |
-| ✅ `GitHub Actions` |                  |
-| ✅ `release-please` |                  |
-| ✅ `commitlint`     |                  |
-| ✅ `lint-staged`    |                  |
-| ✅ `husky`          |                  |
-| ✅ `Vitest`         | Coverage support |
+> [!IMPORTANT]
+> We're offering an extensive API-Reference covered with in-depth usage examples of this project.
+
+To get a starting point, simply refer to our documentation at [ogs-gmbh.github.io/mui-theme](https://ogs-gmbh.github.io/mui-theme).
+
+### Prerequisites
+
+- Node.js version 18 or higher
+- A package manager: e.g. npm, pnpm, ...
+
+### Installation
+
+Using npm:
+```sh
+$ npm install @ogs-gmbh/mui-theme
+```
+
+<details>
+  <summary>Using a different package managers?</summary>
+  <br/>
+  
+  Using yarn:
+  ```sh
+  $ pnpm add @ogs-gmbh/mui-theme
+  ```
+  
+  Using pnpm:
+  ```sh
+  $ pnpm add @ogs-gmbh/mui-theme
+  ```
+  
+  Using bun:
+  ```sh
+  $ bun add @ogs-gmbh/mui-theme
+  ```
+
+</details>
+
+### Usage
+
+`mui-theme` exports dark, light and general theme variants, that can get applied to the [`ThemeProvider`](https://mui.com/material-ui/customization/theming/#theme-provider) Component. Please refer to our [`reference`](https://ogs-gmbh.github.io/mui-theme/reference) for getting a deeper understanding. Here's an example using [`theme`](https://ogs-gmbh.github.io/mui-theme/reference/Theme/theme):
+
+```tsx
+import { ThemeProvider } from "@mui/material/styles";
+import { theme } from "@ogs-gmbh/mui-theme";
+
+function Example() {
+  return <ThemeProvider theme={theme}>Content goes here ...</ThemeProvider>;
+}
+```
 
 ## License
 
