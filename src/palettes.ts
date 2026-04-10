@@ -1,5 +1,15 @@
 import type { Palette } from "./types.js";
 
+/**
+ * Petrol color palette
+ *
+ * @remarks
+ * Primary brand color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const petrol: Palette = {
   0: "#E8F2F4",
   100: "#CCE1E5",
@@ -18,6 +28,16 @@ const petrol: Palette = {
   990: "#000000"
 };
 
+/**
+ * Orange color palette
+ *
+ * @remarks
+ * Secondary brand color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const orange: Palette = {
   0: "#FDEFE7",
   100: "#FDE9DD",
@@ -36,6 +56,16 @@ const orange: Palette = {
   990: "#000000"
 };
 
+/**
+ * Blue color palette
+ *
+ * @remarks
+ * Info color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const blue: Palette = {
   0: "#EAECF7",
   100: "#DEE1F2",
@@ -54,6 +84,16 @@ const blue: Palette = {
   990: "#000000"
 };
 
+/**
+ * Gray color palette
+ *
+ * @remarks
+ * Neutral color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const gray: Palette = {
   0: "#FDFDFD",
   40: "#FAFAFA",
@@ -82,6 +122,16 @@ const gray: Palette = {
   990: "#000000"
 };
 
+/**
+ * Yellow color palette
+ *
+ * @remarks
+ * Warning color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const yellow: Palette = {
   0: "#FFFBF0",
   100: "#FFFAEB",
@@ -100,6 +150,16 @@ const yellow: Palette = {
   990: "#000000"
 };
 
+/**
+ * Red color palette
+ *
+ * @remarks
+ * Error color with shades from 0 to 990.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Palettes
+ */
 const red: Palette = {
   0: "#FBF5F4",
   100: "#F9F1F1",

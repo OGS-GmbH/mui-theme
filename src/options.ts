@@ -1,6 +1,16 @@
 import type { PaletteOptions, ThemeOptions } from "@mui/material";
 import { blue, gray, orange, petrol, red, yellow } from "./palettes.js";
 
+/**
+ * General purpose palette
+ *
+ * @remarks
+ * Doesn't relate to dark or light variants.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Options
+ */
 const paletteOptions: PaletteOptions = {
   primary: {
     main: petrol[500]!
@@ -34,6 +44,16 @@ const paletteOptions: PaletteOptions = {
   }
 };
 
+/**
+ * Light mode palette
+ *
+ * @remarks
+ * Extends general palette with light theme text colors.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Options
+ */
 const lightPaletteOptions: PaletteOptions = {
   ...paletteOptions,
   text: {
@@ -43,6 +63,16 @@ const lightPaletteOptions: PaletteOptions = {
   }
 };
 
+/**
+ * Dark mode palette
+ *
+ * @remarks
+ * Extends general palette with dark theme text colors.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Options
+ */
 const darkPaletteOptions: PaletteOptions = {
   ...paletteOptions,
   text: {
@@ -52,6 +82,16 @@ const darkPaletteOptions: PaletteOptions = {
   }
 };
 
+/**
+ * Base theme configuration
+ *
+ * @remarks
+ * Contains typography, component defaults and CSS variable settings.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Options
+ */
 const themeOptions: ThemeOptions = {
   cssVariables: {
     colorSchemeSelector: "class"

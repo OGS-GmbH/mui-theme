@@ -1,9 +1,16 @@
 {
-  "name": "@ogs-gmbh/_ts-template",
+  "name": "@ogs-gmbh/mui-theme",
   "version": "1.0.0",
-  "description": "A TypeScript project template with a ready-to-use structure.",
+  "description": "Pre-configured Material-UI theme with light, dark and color scheme support.",
   "keywords": [
-    "boilerplate"
+    "color-schemes",
+    "dark-theme",
+    "design-system",
+    "light-theme",
+    "material-ui",
+    "mui",
+    "palette",
+    "theme"
   ],
   "license": "MIT",
   "author": "OGS GmbH",
