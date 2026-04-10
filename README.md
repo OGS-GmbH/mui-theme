@@ -2,7 +2,7 @@
 
 # MUI Theme
 
-*Pre-configured Material-UI theme with light, dark and color scheme support.*
+_Pre-configured Material-UI theme with light, dark and color scheme support._
 
 ![Preview](./docs/preview.avif)
 
@@ -37,6 +37,7 @@ To get a starting point, simply refer to our documentation at [ogs-gmbh.github.i
 ### Installation
 
 Using npm:
+
 ```sh
 $ npm install @ogs-gmbh/mui-theme
 ```
